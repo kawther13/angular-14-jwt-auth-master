@@ -1,0 +1,30 @@
+<div class="container">
+    <legend>edit</legend>
+    <form>
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Nom</label>
+        <input type="text" name="name" [(ngModel)] = " clientForm.nameClt" class="form-control" id="txtName" />
+      </div>
+      <div class="mb-3">
+        <label for="txtPrice" class="form-label">prénome </label>
+        <input type="text" name="price" [(ngModel)] = " clientForm.prenome" class="form-control" id="txtPrice" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">e-meil</label>
+        <input type="text" name="quantity" [(ngModel)] = " clientForm.email" class="form-control" id="txtQuantity" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">Adresse</label>
+        <input type="text" name="quantity" [(ngModel)] = " clientForm.adresse" class="form-control" id="txtQuantity" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">Nume de telephone </label>
+        <input type="text" name="quantity" [(ngModel)] = " clientForm.NumTel" class="form-control" id="txtQuantity" />
+      </div>
+      <div class="mb-3">
+        <label for="txtQuantity" class="form-label">Nume de telephone </label>
+        <input type="text" name="quantity" [(ngModel)] = " clientForm.NumTel" class="form-control" id="txtQuantity" />
+      </div>
+      <button type="button" (click)="update()" class="btn btn-primary">update</button>
+    </form>
+  </div>

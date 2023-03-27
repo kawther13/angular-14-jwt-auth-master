@@ -5,12 +5,14 @@ import { UserRoutingModule } from './user-routing.module';
 import { UserComponent } from './user.component';
 import { UserrComponent } from './userr/userr.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
   declarations: [
     UserComponent,
-    UserrComponent
+    UserrComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
